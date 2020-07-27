@@ -1,10 +1,20 @@
-package worksheet
-
-fun main() {
+fun main(args: Array<String>) {
     for (i in 0..10) {
         val fortune = getFortuneCookie(getBirthday() ?: 0)
         println("\nYour fortune is: $fortune")
         if (fortune.contains("Take it easy")) break
+    }
+    var fortune: String = ""
+    //repeat
+    repeat(10){
+         fortune = getFortuneCookie(getBirthday() ?: 0)
+        println("\nYour fortune is: $fortune")
+//        if (fortune.contains("Take it easy")) break;------> repeat the function with break condition logic
+    }
+
+    while (!fortune.contains("Take it easy")) {
+        fortune = getFortuneCookie(getBirthday()?:0)
+        println("\nYour fortune is: $fortune")
     }
 }
 

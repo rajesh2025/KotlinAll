@@ -1,4 +1,7 @@
 fun main() {
+    stringPractice2()
+}
+fun stringPractice1(){
     var fish1 = "trout"
     var fish2 = "haddock"
     var fish3 = "snapper"
@@ -32,4 +35,11 @@ fun main() {
     }
 
     for (i in 0..100 step 7) println("$i-")
+
+}
+fun stringPractice2(){
+    var str1: String?;
+            str1 = "Rajesh Goswami"
+    str1 = "95834343"
+   val int = str1.toIntOrNull(0)
 }

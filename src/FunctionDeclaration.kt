@@ -1,5 +1,3 @@
-package worksheet
-
 fun main() {
     fitMoreFish(10.0, listOf(3, 3, 3))// false
     fitMoreFish(8.0, listOf(2, 2, 2), hasDecorations = false)// true
