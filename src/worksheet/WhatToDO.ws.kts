@@ -1,6 +1,6 @@
 import java.util.*
 
-//fun main(){
+//fun thread.main(){
    println(whatShouldIDoToday("happy","Sunny"))
 //    println( whatShouldIDoToday("sad"))
 //    println( whatShouldIDoToday("cool","dizzy"))
